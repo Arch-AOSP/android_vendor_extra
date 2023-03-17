@@ -62,7 +62,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     setupwizard.feature_deferred_snooze_allow_never=true
 
 ## Updater
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += lineage.updater.uri="https://updater-api.oddsolutions.us/api/v1/{device}/{type}/{incr}"
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += lineage.updater.uri="https://sourceforge.net/projects/arch-aosp/files/coral/1.x/{device}/{type}/{incr}"
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += lineage.updater.allow_downgrading=true
 
 ## Signing
