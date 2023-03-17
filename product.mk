@@ -68,12 +68,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += lineage.updater.allow_downgrading=true
 ## Signing
 PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/certs/releasekey
 
-ifeq ($(WITH_GMS),true)
-ifneq ($(PRODUCT_IS_ATV),true)
--include vendor/google_pixel/product.mk
-endif # PRODUCT_IS_ATV
-endif # WITH_GMS
-
 PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     root/adb_keys \
     system/bin/ih8sn \
